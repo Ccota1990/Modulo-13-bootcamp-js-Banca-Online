@@ -12,9 +12,7 @@ export const NavbarComponent: React.FC = () => {
       <ul className={classes.list}>
         <li
           className={
-            pathname.startsWith(routesPrefixes.accountList)
-              ? classes.selected
-              : ""
+            pathname.startsWith(routesPrefixes.accountList) ? classes.selected : ""
           }
         >
           <Link to={appRoutes.accountList}>Mis Cuentas</Link>

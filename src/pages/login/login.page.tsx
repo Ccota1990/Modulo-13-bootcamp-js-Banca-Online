@@ -8,6 +8,7 @@ import { mapCredentialFromVmToApi } from "./login.mapper";
 import { appRoutes } from "@/core/router";
 import classes from "./login.page.module.css";
 
+
 export const LoginPage: React.FC = () => {
   const navigate = useNavigate();
   const { setUserProfile } = useProfileContext();
@@ -38,5 +39,6 @@ export const LoginPage: React.FC = () => {
         </h4>
       </div>
     </div>
+    
   );
 };

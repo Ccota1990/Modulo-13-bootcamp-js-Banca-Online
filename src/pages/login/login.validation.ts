@@ -1,7 +1,7 @@
 import {
   Credentials,
   CredentialsformErrors,
-  createEmptyCredentialsformErrors,
+  createEmptyCredentialsFormErrors,
 } from "./login.vm";
 
 interface ValidationResult {
@@ -12,7 +12,7 @@ interface ValidationResult {
 export const validateForm = (credentials: Credentials): ValidationResult => {
   let validationResult = {
     succeeded: true,
-    errors: createEmptyCredentialsformErrors(),
+    errors: createEmptyCredentialsFormErrors(),
   };
 
   if (!credentials.user.trim()) {

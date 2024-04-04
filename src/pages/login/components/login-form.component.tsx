@@ -3,7 +3,7 @@ import {
   Credentials,
   CredentialsformErrors,
   createEmptyCredentials,
-  createEmptyCredentialsformErrors,
+  createEmptyCredentialsFormErrors,
 } from "../login.vm";
 import { validateForm } from "../login.validation";
 import classes from "./login-form.component.module.css";
@@ -18,7 +18,7 @@ export const LoginFormComponent: React.FC<Props> = ({ onLogin }) => {
   );
 
   const [errors, setErrors] = React.useState<CredentialsformErrors>(
-    createEmptyCredentialsformErrors()
+    createEmptyCredentialsFormErrors()
   );
 
   const handleFieldChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -47,7 +47,7 @@ export const LoginFormComponent: React.FC<Props> = ({ onLogin }) => {
           onChange={handleFieldChange}
           className={errors.user ? classes.inputError : ""}
           placeholder="Usuario"
-        />
+        /> 
         {errors.user && <p className={classes.error}>{errors.user}</p>}
       </div>
       <div>

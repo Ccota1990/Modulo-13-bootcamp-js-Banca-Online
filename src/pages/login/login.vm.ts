@@ -13,7 +13,7 @@ export interface CredentialsformErrors {
   password: string;
 }
 
-export const createEmptyCredentialsformErrors = (): CredentialsformErrors => ({
+export const createEmptyCredentialsFormErrors = (): CredentialsformErrors => ({
   user: "",
   password: "",
 });

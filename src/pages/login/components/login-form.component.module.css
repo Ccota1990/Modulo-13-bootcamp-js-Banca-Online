@@ -12,7 +12,7 @@
 
 .input-error {
   box-shadow: unset;
-  border-color: #f44336;
+  border-color: var(--error_color);
 }
 
 .btn-enviar {
