@@ -108,5 +108,17 @@
       "accountId": "3"
     }
   ],
-  "transfer": []
+  "transfer": [
+    {
+      "accountId": "2",
+      "iban": "ES7100493764379965160929",
+      "name": "prueba",
+      "amount": "1",
+      "concept": "dfg",
+      "notes": "dfg",
+      "transferDate": "Wed Apr 10 2024",
+      "realTransferDate": "2024-04-26",
+      "id": 1
+    }
+  ]
 }

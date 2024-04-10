@@ -2,6 +2,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 5px;
+  height: 100%;
 }
 
 .header-container {
@@ -16,8 +17,4 @@
 .header-container h1 {
   font-size: 2.2rem;
   font-weight: 300;
-}
-
-.no-underline {
-  text-decoration: none;
 }

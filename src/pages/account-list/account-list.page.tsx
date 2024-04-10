@@ -22,7 +22,7 @@ export const AccountListPage: React.FC = () => {
       <div className={classes.root}>
         <div className={classes.headerContainer}>
           <h1>Mis cuentas</h1>
-            <Link to={generatePath(appRoutes.createAccount)}>
+            <Link to={generatePath(appRoutes.createAccount)} className={classes.noUnderline}>
               <button>AGREGAR NUEVA CUENTA</button>
             </Link>
         </div>

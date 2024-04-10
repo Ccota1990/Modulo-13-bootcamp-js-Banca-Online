@@ -1,0 +1,41 @@
+.form-container {
+  border: none;
+  border-bottom: 1px solid #232c3b;
+  padding: 40px 0;
+}
+
+.form-container div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.form-container label {
+  margin-right: 20px;
+  min-width: 300px;
+  text-align: right;
+}
+
+.large {
+  width: 300px;
+}
+
+.btn-guardar {
+  width: 120px;
+  margin: 10px 0 10px 320px;
+}
+
+.error {
+  color: var(--error_color);
+  font-size: 0.9em;
+}
+
+.input-error {
+  box-shadow: unset;
+  border-color: var(--error_color);
+}
+
+
+
+
