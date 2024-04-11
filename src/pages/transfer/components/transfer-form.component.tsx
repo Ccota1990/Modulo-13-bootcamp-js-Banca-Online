@@ -35,7 +35,7 @@ export const TransferFormComponent: React.FC<Props> = (props) => {
       setTransfer((prevTransfer) => ({
         ...prevTransfer,
         accountId: defaultAccountId,
-      }));
+      })); 
     }
   }, []);
 

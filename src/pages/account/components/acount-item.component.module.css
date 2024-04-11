@@ -29,6 +29,8 @@
 .error {
   color: var(--error_color);
   font-size: 0.9em;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
 }
 
 .input-error {
@@ -36,6 +38,18 @@
   border-color: var(--error_color);
 }
 
+.select {
+  font-size: 13px;
+  border-radius: 10px;
+  padding: 8px 10px;
+  width: 90%;
+  cursor: pointer;
+  width: 300px;
+}
+
+.select > option {
+  font-size: 15px;
+}
 
 
 

@@ -29,7 +29,7 @@ export const AccountPage: React.FC =() =>{
           <h1>Cuenta Bancaria</h1>
         </div>
         <CountComponent  
-        handleAccount={hadleAccount}
+        onAccount={hadleAccount}
         />
       </div>
     </AppLayout>

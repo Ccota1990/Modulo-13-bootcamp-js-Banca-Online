@@ -23,6 +23,38 @@
       "name": "Ahorro",
       "balance": 8500,
       "lastTransaction": "2019-11-15T08:29:04"
+    },
+    {
+      "iban": "FI93 7190 5490 1552 63",
+      "name": "dsf",
+      "type": "2",
+      "balance": 0,
+      "lastTransaction": "2024-04-11T08:41:55.717Z",
+      "id": "ZvySnev"
+    },
+    {
+      "iban": "MK85 3033 8935 9350 080",
+      "name": "cuenta de prueba nomina",
+      "type": "3",
+      "balance": 0,
+      "lastTransaction": "2024-04-11T08:48:55.440Z",
+      "id": "pJfAM4a"
+    },
+    {
+      "iban": "DK88 0317 0057 7700 84",
+      "name": "hola",
+      "type": "2",
+      "balance": 0,
+      "lastTransaction": "2024-04-11T08:52:10.661Z",
+      "id": "6SRBCe-"
+    },
+    {
+      "iban": "KW42 KAVW 2679 1B41 07Y4 8M28 99V2 75",
+      "name": "ultima prueba",
+      "type": "3",
+      "balance": 0,
+      "lastTransaction": "2024-04-11T08:52:54.875Z",
+      "id": "LDVLj2o"
     }
   ],
   "movements": [
